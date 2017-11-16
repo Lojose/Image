@@ -16,8 +16,6 @@ int main(int argc, char * argv[]) {
 
 	const char *cmd1 =
 		"ffmpeg\\bin\\ffmpeg.exe "
-		"-y "
-		"-hide_banner "
 		"-i apple_raw.png "
 		"-f rawvideo "
 		"-pix_fmt yuv420p -"; 
